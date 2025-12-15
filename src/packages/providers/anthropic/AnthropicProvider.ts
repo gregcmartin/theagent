@@ -35,7 +35,7 @@ export class AnthropicProvider {
     }
 
     this.client = new Anthropic({ apiKey });
-    this.model = config.model || 'claude-sonnet-4-20250514';
+    this.model = config.model || 'claude-sonnet-4-5-20241022';
     this.maxRetries = config.maxRetries || 3;
     this.defaultMaxTokens = config.defaultMaxTokens || 4096;
   }
